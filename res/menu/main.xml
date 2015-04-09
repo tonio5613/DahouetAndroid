@@ -1,0 +1,25 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.helloafpa.MainActivity"
+     android:showAsAction="ifRoom|always">
+    
+<item android:id="@+id/conv"
+ android:title="Convertir"
+ android:icon="@drawable/ic_action_good" />
+
+<item android:id="@+id/parametres"
+ android:title="Parametres">
+ <menu android:id="@+id/sousmenu">
+ <item android:id="@+id/chglang"
+ android:title="Changer la langue" />
+ <item android:id="@+id/chgdat"
+ android:title="Changer la date" />
+ <item android:id="@+id/chgaff"
+ android:title="Changer l'affichage" />
+ </menu>
+ </item>
+
+<item android:id="@+id/quitter"
+ android:title="Quitter"/>
+</menu>
